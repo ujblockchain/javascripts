@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events - Learning Management System</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+
+
+
+  <nav class="custom-navbar navbar navbar navbar-expand-md navbar-light bg-light" arial-label="LMS">
+    <div class="container">
+      <a class="navbar-brand" href="#">LMS<span>.</span></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsLMS"
+        aria-controls="navbarsLMS" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsLMS">
+        <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+          <li><a class="nav-link" href="index.html">Courses</a></li>
+          <li class="nav-item active">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+        </ul>
+        <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+          <li>
+            <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#loginForm"><i
+                class="fa-solid fa-user fa-lg"></i> Login
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#registerForm">
+              <i class="fa-solid fa-plus fa-lg"></i> Register
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- heading -->
+  <section>
+    <div class="container-fluid page-header py-5">
+      <h1 class="text-center text-white display-6">Events</h1>
+      <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active text-white">Events</li>
+      </ol>
+    </div>
+  </section>
+
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-12">
+        <div class="card mb-3 mb-lg-0">
+          <div class="card-header bg-body-tertiary d-flex justify-content-between">
+            <h5 class="mb-0">All Events</h5>
+            <form>
+              <select class="form-select form-select-sm">
+                <option selected="selected">Select Category</option>
+                <option value="">Workshops</option>
+                <option value="">Meetups</option>
+                <option value="">Hackathons</option>
+                <option value="">Summit</option>
+                <option value="">Media Event</option>
+                <option value="">Bootcamps</option>
+                <option value="">Conferences</option>
+                <option>Other</option>
+              </select></form>
+          </div>
+          <div class="card-body fs-10">
+            <div class="row">
+
+              <div class="col-md-6 h-100">
+                <div class="d-flex events-calendar">
+                  <div class="calendar"><span class="calendar-month">Feb</span><span class="calendar-day">15</span>
+                  </div>
+                  <div class="flex-1 position-relative ps-3">
+                    <h6 class="fs-9 mb-0"><a href="#" class="events-link">AI Workshop Series </a></h6>
+                    <p class="mb-1">Organized by <a href="#" class="text-700 events-link">Accenture</a></p>
+                    <p class="text-1000 mb-0">Time: 10:00AM - 4:00PM</p>
+                    <p class="text-1000 mb-0">Duration: Feb 15 - Feb 17</p>
+                    Place: Durban Convention Center, Durban <div class="border-bottom border-dashed my-3"></div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+              <div class="col-md-6 h-100">
+                <div class="d-flex events-calendar">
+                  <div class="calendar">
+                    <span class="calendar-month">Feb</span>
+                    <span class="calendar-day">29</span>
+                  </div>
+                  <div class="flex-1 position-relative ps-3">
+                    <h6 class="fs-9 mb-0"><a href="#" class="events-link">Tech Enthusiasts Meetup </a></h6>
+                    <p class="mb-1">Organized by <a href="#" class="text-700 events-link">Tech Hub Community</a></p>
+                    <p class="text-1000 mb-0">Time: 6:30PM - 8:30PM</p>
+                    <p class="text-1000 mb-0">Duration: Mar 5</p>
+                    Place: Johannesburg Innovation Hub, Johannesburg
+                    <div class="border-bottom border-dashed my-3"></div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+              <div class="col-md-6 h-100">
+                <div class="d-flex events-calendar">
+                  <div class="calendar"><span class="calendar-month">Apr</span><span class="calendar-day">10</span>
+                  </div>
+                  <div class="flex-1 position-relative ps-3">
+                    <h6 class="fs-9 mb-0"><a href="#" class="events-link">Blockchain Hackathon</a></h6>
+                    <p class="mb-1">Organized by <a href="#" class="text-700 events-link"> CodeCrafters</a></p>
+                    <p class="text-1000 mb-0">Time: 6:00AM</p>
+                    <p class="text-1000 mb-0">Duration: 9:00AM - 6:00PM </p>Place: Cape Town International Convention
+                    Centre<div class="border-bottom border-dashed my-3"></div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="col-md-6 h-100">
+                <div class="d-flex events-calendar">
+                  <div class="calendar"><span class="calendar-month">May</span><span class="calendar-day">20</span>
+                  </div>
+                  <div class="flex-1 position-relative ps-3">
+                    <h6 class="fs-9 mb-0"><a href="#" class="events-link">Future Tech Summit</a></h6>
+                    <p class="mb-1">Organized by <a href="#!" class="text-700 events-link">InnovateX Events</a></p>
+                    <p class="text-1000 mb-0">Time: 9:00AM - 5:00PM </p>
+                    <p class="text-1000 mb-0">280 people interested</p>
+                    Place: Sandton Convention Centre, Johannesburg<div class="border-bottom border-dashed my-3"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 h-100">
+                <div class="d-flex events-calendar">
+                  <div class="calendar"><span class="calendar-month">Jun</span><span class="calendar-day">8</span>
+                  </div>
+                  <div class="flex-1 position-relative ps-3">
+                    <h6 class="fs-9 mb-0"><a href="#" class="events-link">AI in Media Conference </a></h6>
+                    <p class="mb-1">Organized by <a href="#!" class="text-700 events-link">MediaTech Global</a></p>
+                    <p class="text-1000 mb-0">Time: 11:00AM - 3:00PM </p>
+                    <p class="text-1000 mb-0">Location:Durban ICC, Durban
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container-fluid copyright bg-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start text-dark mb-3 mb-md-0">
+            <span class="text-dark"><i class="fa-regular fa-copyright"></i> <a href="#"> LMS </a>, All right
+              reserved.</span>
+            <span id="year"></span>
+          </div>
+          <div class="col-md-6 my-auto text-center text-md-end text-dark">
+            <a href="" class="me-3 socials"><i class="fa-brands fa-facebook "></i></a>
+            <a href="" class="me-3 socials"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="" class="me-3 socials"> <i class="fa-brands fa-linkedin me-3"></i></a>
+            <a href="" class="me-3 socials"> <i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+  <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top" id="backToTop"><i
+      class="fa fa-arrow-up"></i></a>
+
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginForm" tabindex="-1" aria-labelledby="loginFormModalLabel" style="display: none;"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header px-5 position-relative bg-color">
+          <div class="position-relative z-1">
+            <h4 class="mb-0 text-white">Login</h4>
+            <p class="fs-10 mb-0 text-white">Please sign in to your account</p>
+
+          </div>
+          <button class="btn-close position-absolute top-0 end-0 mt-2 me-2" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body py-4 px-5">
+          <form class="modal-auth">
+            <div class="mb-3">
+              <label class="form-label" for="modal-auth-email">Email address</label>
+              <input class="form-control" type="email" autocomplete="on" id="modal-auth-email">
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="modal-auth-password">Password</label>
+              <input class="form-control" type="password" autocomplete="on" id="modal-auth-password">
+            </div>
+            <div class="mb-3">
+              <button class="btn btn-my-primary d-block w-100 mt-3" type="submit" name="submit">Sign in</button>
+            </div>
+          </form>
+          <div class="position-relative mt-5">
+            <hr>
+            <div class="divider-content-center">or login with</div>
+          </div>
+          <div class="row g-2 mt-2 social-buttons">
+            <div class="col-sm-6">
+              <a class="btn btn-outline-google btn-sm d-block w-100" href="#">
+                <span class="fab fa-google-plus-g me-2" data-fa-transform="grow-8"></span>
+                google </a>
+            </div>
+            <div class="col-sm-6">
+              <a class="btn btn-outline-facebook btn-sm d-block w-100" href="#">
+                <span class="fab fa-facebook-square me-2" data-fa-transform="grow-8"></span> facebook </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Register Modal -->
+  <div class="modal fade" id="registerForm" tabindex="-1" aria-labelledby="registerFormModalLabel"
+    style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header px-5 position-relative bg-color">
+          <div class="position-relative z-1">
+            <h4 class="mb-0 text-white">Register</h4>
+            <p class="fs-10 mb-0 text-white">Please create your free account</p>
+
+          </div>
+          <button class="btn-close position-absolute top-0 end-0 mt-2 me-2" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body py-4 px-5">
+          <form class="modal-auth">
+            <div class="mb-3">
+              <label class="form-label" for="modal-auth-name">Name</label>
+              <input class="form-control" type="text" autocomplete="on" id="modal-auth-name">
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="modal-auth-email">Email address</label>
+              <input class="form-control" type="email" autocomplete="on" id="modal-auth-email">
+            </div>
+            <div class="row gx-2">
+              <div class="mb-3 col-sm-6">
+                <label class="form-label" for="modal-auth-password">Password</label>
+                <input class="form-control" type="password" autocomplete="on" id="modal-auth-password">
+              </div>
+              <div class="mb-3 col-sm-6">
+                <label class="form-label" for="modal-auth-confirm-password">Confirm Password</label>
+                <input class="form-control" type="password" autocomplete="on" id="modal-auth-confirm-password">
+              </div>
+            </div>
+            <div class="mb-3">
+              <button class="btn btn-my-primary d-block w-100 mt-3" type="submit" name="submit">Register</button>
+            </div>
+          </form>
+          <div class="position-relative mt-5">
+            <hr>
+            <div class="divider-content-center">or register with</div>
+          </div>
+          <div class="row g-2 mt-2 social-buttons">
+            <div class="col-sm-6">
+              <a class="btn btn-outline-google btn-sm d-block w-100" href="#">
+                <span class="fab fa-google-plus-g me-2" data-fa-transform="grow-8"></span>
+                google </a>
+            </div>
+            <div class="col-sm-6">
+              <a class="btn btn-outline-facebook btn-sm d-block w-100" href="#">
+                <span class="fab fa-facebook-square me-2" data-fa-transform="grow-8"></span> facebook </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

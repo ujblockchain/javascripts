@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Details - Learning Management System</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body>
+  <nav class="custom-navbar navbar navbar navbar-expand-md navbar-light bg-light" arial-label="LMS">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">LMS<span>.</span></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsLMS"
+        aria-controls="navbarsLMS" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsLMS">
+        <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Courses</a>
+          </li>
+          <li><a class="nav-link" href="events.html">Events</a></li>
+        </ul>
+
+        <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+          <li>
+            <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#loginForm"><i
+                class="fa-solid fa-user fa-lg"></i> Login
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#registerForm">
+              <i class="fa-solid fa-plus fa-lg"></i> Register
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- heading -->
+    <section>
+      <div class="container-fluid page-header py-5">
+        <h1 class="text-center text-white display-6">
+          Intro to Blockchain Development
+        </h1>
+        <ol class="breadcrumb justify-content-center mb-0">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Courses</a></li>
+          <li class="breadcrumb-item active text-white">
+            Intro to Blockchain Development
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- main content -->
+    <section class="my-3 course-details">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-lg-5 me-n5 img-box mb-md-3">
+            <img src="assets/img/course4.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-lg-7">
+            <div class="course-details-box">
+              <div class="vstack g-5">
+                <h5>Intro to Blockchain Development</h5>
+                <div class="hstack gap-3 my-4">
+                  <div>
+                    <span>
+                      <img src="assets/img/icons/user.jpg" class="author-icon" alt="author icon">
+                    </span>
+                  </div>
+                  <div class="">
+                    <div class="instructor-label">Instructor</div>
+                    <div class="instructor-name mt-2">John Doe</div>
+                  </div>
+
+                  <div class="ms-4 course-curriculum">
+                    <div class="">
+                      <div>Curriculum</div>
+                      <div class="mt-2">5 Items</div>
+                    </div>
+                  </div>
+
+                  <div class="ms-4 course-review">
+                    <div class="">
+                      <div>Review</div>
+                      <div> 4.8 <i class="fa-solid fa-star full"></i> (143K) </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="mt-2 course-fee">
+                  Free
+                </div>
+                <div class="mt-3 course-access">
+                  <a href="login.html" class="btn btn-lg access-course-btn">
+                    <i class="fa-solid fa-unlock"></i>
+                    Login To Take course
+
+                  </a>
+
+                </div>
+
+              </div>
+
+
+
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="row">
+
+          <div class="col-12 col-lg-10 course-full-details">
+
+            <div class="card shadow-none border my-4">
+              <div class="p-4">
+                <ul class="nav nav-underline fs-9" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation"><a class="nav-link active" id="curriculum-tab"
+                      data-bs-toggle="tab" href="#tab-curriculum" role="tab" aria-controls="tab-curriculum"
+                      aria-selected="true">
+                      <i class="fa-solid fa-book-open-reader fa-sm"></i> &nbsp;
+                      Curriculum
+                    </a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" id="about-tab" data-bs-toggle="tab"
+                      href="#tab-about" role="tab" aria-controls="tab-about" aria-selected="false" tabindex="-1">
+                      <i class="fa-solid fa-file-circle-exclamation"></i>&nbsp;
+
+                      About</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" id="instructors-tab" data-bs-toggle="tab"
+                      href="#tab-instructors" role="tab" aria-controls="tab-instructors" aria-selected="false"
+                      tabindex="-1">
+                      <i class="fa-solid fa-chalkboard-user"></i>&nbsp;
+
+                      Instructors</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" id="reviews-tab" data-bs-toggle="tab"
+                      href="#tab-reviews" role="tab" aria-controls="tab-reviews" aria-selected="false" tabindex="-1">
+                      <i class="fa-solid fa-thumbs-up"></i>&nbsp;
+                      Reviews</a></li>
+                </ul>
+                <div class="tab-content mt-3" id="myTabContent">
+                  <div class="tab-pane fade active show" id="tab-curriculum" role="tabpanel"
+                    aria-labelledby="curriculum-tab">
+
+                    <ol class="list-group list-group-none">
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary">Introduction to Blockchain Technology</span>
+
+                        </div>
+                        <div>
+                          <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span>
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 20 mins
+                          </span>
+                        </div>
+
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary">Basics of Cryptography </span>
+
+                        </div>
+                        <div>
+                          <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span>
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 30 mins
+                          </span>
+                        </div>
+
+                      </li>
+
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary">Decentralization and Consensus Mechanisms </span>
+
+                        </div>
+                        <div>
+                          <!-- <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span> -->
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 40 mins
+                          </span>
+                        </div>
+
+                      </li>
+
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary">Introduction to Smart Contracts </span>
+
+                        </div>
+                        <div>
+                          <!-- <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span> -->
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 45 mins
+                          </span>
+                        </div>
+
+                      </li>
+
+
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary"> Ethereum Blockchain </span>
+
+                        </div>
+                        <div>
+                          <!-- <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span> -->
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 1 hr
+                          </span>
+                        </div>
+
+                      </li>
+
+
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary"> Solidity Programming Language </span>
+
+                        </div>
+                        <div>
+                          <!-- <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span> -->
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 1 hr : 15 mins
+                          </span>
+                        </div>
+
+                      </li>
+
+
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary"> Building Your First Smart Contract </span>
+
+                        </div>
+                        <div>
+                          <!-- <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span> -->
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 1 hr : 30 mins
+                          </span>
+                        </div>
+
+                      </li>
+
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary"> Interacting with Smart Contracts </span>
+
+                        </div>
+                        <div>
+                          <!-- <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span> -->
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 1 hr
+                          </span>
+                        </div>
+
+                      </li>
+
+
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary"> Tokenization and Initial Coin Offerings (ICOs) </span>
+
+                        </div>
+                        <div>
+                          <!-- <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span> -->
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 1 hr : 15 mins
+                          </span>
+                        </div>
+
+                      </li>
+
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary"> Security Best Practices </span>
+
+                        </div>
+                        <div>
+                          <!-- <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span> -->
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 1 hr : 30 mins
+                          </span>
+                        </div>
+
+                      </li>
+
+
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary"> Real-world Applications of Blockchain </span>
+
+                        </div>
+                        <div>
+                          <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span>
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 30 mins
+                          </span>
+                        </div>
+
+                      </li>
+
+
+                      <li class="list-group-item d-flex justify-content-between align-items-start py-3">
+                        <div class="ms-2 me-auto">
+                          <i class="fa-solid fa-book-open-reader fa-sm"></i>
+                          <span class="text-body-secondary"> Future Trends and Advanced Topics </span>
+
+                        </div>
+                        <div>
+                          <!-- <span class="mt-2 is-preview me-3">
+                            Preview
+                          </span> -->
+                          <span class="module-duration">
+                            <i class="fa-regular fa-clock"></i> Duration: 2 hrs
+                          </span>
+                        </div>
+
+                      </li>
+                    </ol>
+
+                  </div>
+
+                  <div class="tab-pane fade" id="tab-about" role="tabpanel" aria-labelledby="about-tab">
+                    <div class="card border p-5">
+                      <div class="card-title">
+                        <h5 class="display-6">About this course</h5>
+                      </div>
+                      <div class="about-course-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dignissimos omnis sint
+                        recusandae magnam, laboriosam iste autem, deleniti fuga libero vel alias soluta asperiores
+                        aperiam? Eveniet autem tempora aspernatur commodi dolorem a officiis odit voluptate, unde
+                        asperiores at hic quia tenetur eaque dolorum! Numquam, repellendus, perspiciatis doloremque
+                        voluptatum blanditiis laudantium atque saepe debitis nesciunt dolores illo vitae, omnis fuga
+                        ullam
+                        ut! Laborum, unde mollitia ratione cumque culpa alias esse dolor saepe quasi tempore quisquam
+                        commodi illum qui expedita atque molestias beatae, consectetur temporibus quod doloremque
+                        animi
+                        nostrum voluptatem. Quia aliquid, voluptatem cum fugit similique enim rerum ratione dolor qui
+                        et!
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="tab-instructors" role="tabpanel" aria-labelledby="instructors-tab">
+
+
+                    <div class="row">
+                      <div class="col-lg-4 col-md-6">
+
+
+                        <div class="course-instructor">
+                          <div class="image">
+                            <img src="assets/img/instructor-1.jpg" alt="instructor">
+                            <div class="social-icons">
+                              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="overlay"></div>
+                          </div>
+
+                          <h5>John Doe</h5>
+                          <p>Blockchain Developer</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+
+
+                        <div class="course-instructor">
+                          <div class="image">
+                            <img src="assets/img/instructor-2.jpg" alt="instructor">
+                            <div class="social-icons">
+                              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="overlay"></div>
+                          </div>
+
+                          <h5>John Doe</h5>
+                          <p>Developer Advocate</p>
+                        </div>
+                      </div>
+
+                    </div>
+
+
+
+
+
+
+                  </div>
+
+                  <div class="tab-pane fade" id="tab-reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                    <div class="card border p-5">
+                      <div class="row g-3 justify-content-between mb-4">
+                        <div class="col-auto">
+                          <div class="d-flex align-items-center flex-wrap">
+                            <h2 class="fw-bolder me-3">4.0<span class="fw-bold">/5</span></h2>
+                            <div class="me-3">
+                              <div class="d-flex">
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star"></i>
+                              </div>
+                            </div>
+                            <p class="text-body mb-0 fw-semibold fs-7">6548 ratings and 567 reviews</p>
+                          </div>
+                        </div>
+
+                        <div class="d-flex">
+                          <img src="assets/img/icons/user.jpg" class="img-fluid rounded-circle p-3"
+                            style="width: 100px; height: 100px;" alt="user">
+                          <div>
+                            <p class="mb-2" style="font-size: 14px;">Jan 12, 2024 at 4:12 pm</p>
+                            <div class="d-flex justify-content-between">
+                              <h5>John Doe</h5>
+                              <div class="d-flex mb-3">
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star"></i>
+                              </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate reprehenderit sunt,
+                              voluptatum repudiandae odio nisi at quibusdam inventore saepe! Esse minima eveniet
+                              dolores
+                              deserunt necessitatibus. </p>
+                          </div>
+                        </div>
+                        <div class="d-flex">
+                          <img src="assets/img/icons/user.jpg" class="img-fluid rounded-circle p-3"
+                            style="width: 100px; height: 100px;" alt="user">
+                          <div>
+                            <p class="mb-2" style="font-size: 14px;">Jan 12, 2024 at 8:49 am</p>
+                            <div class="d-flex justify-content-between">
+                              <h5>John Doe</h5>
+                              <div class="d-flex mb-3">
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                              </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate reprehenderit sunt,
+                              voluptatum repudiandae odio nisi at quibusdam inventore saepe! Esse minima eveniet
+                              dolores
+                              deserunt necessitatibus. </p>
+                          </div>
+                        </div>
+
+                        <form action="">
+                          <h4 class="mb-5 fw-bold">Leave a Reply</h4>
+                          <div class="row">
+                            <div class="col-md-4 mb-3">
+                              <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-4 mb-3">
+                              <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="col-md-4 mb-3">
+                              <input type="text" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="col-12 mb-3">
+                              <input type="text" class="form-control" placeholder="Title">
+                            </div>
+                            <div class="col-12 mb-3">
+                              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Comment"
+                                spellcheck="false"></textarea>
+                            </div>
+
+                            <div class="col-lg-12">
+                              <div class="d-flex justify-content-between py-1 mb-5">
+                                <div class="d-flex align-items-center">
+                                  <p class="mb-0 me-3">Please rate:</p>
+                                  <div class="d-flex align-items-center rate-course"
+                                    style="font-size: 12px; cursor: pointer;">
+                                    <i class="fa fa-star fa-lg"></i>
+                                    <i class="fa fa-star fa-lg"></i>
+                                    <i class="fa fa-star fa-lg"></i>
+                                    <i class="fa fa-star fa-lg"></i>
+                                    <i class="fa fa-star fa-lg"></i>
+                                  </div>
+                                </div>
+                                <a href="#" class="btn border border-secondary px-4 py-3 comment-btn">
+                                  Post Comment</a>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="row g-3 all-courses">
+              <h4 class="mb-2 fw-bold">Related Courses</h4>
+              <div class="col-md-6 col-lg-6 col-xl-4">
+                <div class="card course-info-card">
+                  <div class="img-container" id="img-container6">
+                    <img src="assets/img/course6.jpg" class="card-img-top" id="card-img-top6" alt="course title" />
+
+                    <div class="overlay">
+                      <div class="star-effect">
+                        <a href="course-details.html">
+                          View Course
+                          <div class="star-1">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="star-2">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="star-3">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="star-4">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="star-5">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="star-6">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card-body course-info">
+                    <div class="vstack gap-2">
+                      <div class="course-cost">R99.99</div>
+                      <h5 class="course-title display-5">
+                        <a href="course-details.html">Cryptocurrency Essentials
+                        </a>
+                      </h5>
+                      <div class="tags">
+                        <a href="course-details.html">Cryptocurrency</a>
+                        <span>|</span>
+                        <span href="#">27 Curruculum</span>
+                      </div>
+                      <div class="course-duration">
+                        <i class="fa-regular fa-clock"></i> 12d 1h 50m
+                      </div>
+                      <div class="reviews">
+                        <div class="rating">
+                          4.8 <i class="fa-solid fa-star full"></i> (143K)
+                          <i class="fa-solid fa-circle-info"></i>
+
+                          <!-- <i class="fa-solid fa-star-half-stroke full"></i> -->
+                          <!-- <i class="fa-solid fa-star half"></i> -->
+                          <!-- <i class="fa-solid fa-star empty"></i> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-6 col-xl-4">
+                <div class="card course-info-card">
+                  <div class="img-container" id="img-container3">
+                    <img src="assets/img/course3.jpg" class="card-img-top" id="card-img-top3" alt="course title" />
+
+                    <div class="overlay">
+                      <div class="star-effect">
+                        <a href="course-details.html">
+                          View Course
+                          <div class="star-1">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="star-2">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="star-3">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="star-4">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="star-5">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div class="star-6">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="
+                                  shape-rendering: geometricPrecision;
+                                  text-rendering: geometricPrecision;
+                                  image-rendering: optimizeQuality;
+                                  fill-rule: evenodd;
+                                  clip-rule: evenodd;
+                                " version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                  class="fil0"></path>
+                              </g>
+                            </svg>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card-body course-info">
+                    <div class="vstack gap-2">
+                      <div class="course-cost">R329.99</div>
+                      <h5 class="course-title display-5">
+                        <a href="course-details.html">Blockchain Basics </a>
+                      </h5>
+                      <div class="tags">
+                        <a href="course-details.html">Blockchain</a>
+                        <span>|</span>
+                        <span href="#">5 Curruculum</span>
+                      </div>
+                      <div class="course-duration">
+                        <i class="fa-regular fa-clock"></i> 3d 3h 30m
+                      </div>
+                      <div class="reviews">
+                        <div class="rating">
+                          4.4 <i class="fa-solid fa-star full"></i> (43K)
+                          <i class="fa-solid fa-circle-info"></i>
+
+                          <!-- <i class="fa-solid fa-star-half-stroke full"></i> -->
+                          <!-- <i class="fa-solid fa-star half"></i> -->
+                          <!-- <i class="fa-solid fa-star empty"></i> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-12 col-lg-2 py-4 course-info">
+            <div class="position-sticky">
+              <h5 class="lh-1">Course Info </h5>
+              <hr>
+              <div class="card mb-3 fs-10">
+                <div class="card-body">
+                  <h6 class="heading">Last Updated</h6>
+                  <p class="body">01/2024</p>
+                  <hr class="mb-1">
+                  <h6 class="mt-4 heading">Language</h6>
+                  <div class="body">English</div>
+                  <hr class="mb-1">
+                  <h6 class="mt-4 heading">Students</h6>
+                  <p class="fs-10 mb-0 body">1,202,293</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container-fluid copyright bg-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start text-dark mb-3 mb-md-0">
+            <span class="text-dark"><i class="fa-regular fa-copyright"></i> <a href="#"> LMS </a>, All right
+              reserved.</span>
+            <span id="year"></span>
+          </div>
+          <div class="col-md-6 my-auto text-center text-md-end text-dark">
+            <a href="" class="me-3 socials"><i class="fa-brands fa-facebook "></i></a>
+            <a href="" class="me-3 socials"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="" class="me-3 socials"> <i class="fa-brands fa-linkedin me-3"></i></a>
+            <a href="" class="me-3 socials"> <i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+  <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top" id="backToTop"><i
+      class="fa fa-arrow-up"></i></a>
+
+
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginForm" tabindex="-1" aria-labelledby="loginFormModalLabel" style="display: none;"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header px-5 position-relative bg-color">
+          <div class="position-relative z-1">
+            <h4 class="mb-0 text-white">Login</h4>
+            <p class="fs-10 mb-0 text-white">Please sign in to your account</p>
+
+          </div>
+          <button class="btn-close position-absolute top-0 end-0 mt-2 me-2" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body py-4 px-5">
+          <form class="modal-auth">
+            <div class="mb-3">
+              <label class="form-label" for="modal-auth-email">Email address</label>
+              <input class="form-control" type="email" autocomplete="on" id="modal-auth-email">
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="modal-auth-password">Password</label>
+              <input class="form-control" type="password" autocomplete="on" id="modal-auth-password">
+            </div>
+            <div class="mb-3">
+              <button class="btn btn-my-primary d-block w-100 mt-3" type="submit" name="submit">Sign in</button>
+            </div>
+          </form>
+          <div class="position-relative mt-5">
+            <hr>
+            <div class="divider-content-center">or login with</div>
+          </div>
+          <div class="row g-2 mt-2 social-buttons">
+            <div class="col-sm-6">
+              <a class="btn btn-outline-google btn-sm d-block w-100" href="#">
+                <span class="fab fa-google-plus-g me-2" data-fa-transform="grow-8"></span>
+                google </a>
+            </div>
+            <div class="col-sm-6">
+              <a class="btn btn-outline-facebook btn-sm d-block w-100" href="#">
+                <span class="fab fa-facebook-square me-2" data-fa-transform="grow-8"></span> facebook </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Register Modal -->
+  <div class="modal fade" id="registerForm" tabindex="-1" aria-labelledby="registerFormModalLabel"
+    style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header px-5 position-relative bg-color">
+          <div class="position-relative z-1">
+            <h4 class="mb-0 text-white">Register</h4>
+            <p class="fs-10 mb-0 text-white">Please create your free account</p>
+
+          </div>
+          <button class="btn-close position-absolute top-0 end-0 mt-2 me-2" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body py-4 px-5">
+          <form class="modal-auth">
+            <div class="mb-3">
+              <label class="form-label" for="modal-auth-name">Name</label>
+              <input class="form-control" type="text" autocomplete="on" id="modal-auth-name">
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="modal-auth-email">Email address</label>
+              <input class="form-control" type="email" autocomplete="on" id="modal-auth-email">
+            </div>
+            <div class="row gx-2">
+              <div class="mb-3 col-sm-6">
+                <label class="form-label" for="modal-auth-password">Password</label>
+                <input class="form-control" type="password" autocomplete="on" id="modal-auth-password">
+              </div>
+              <div class="mb-3 col-sm-6">
+                <label class="form-label" for="modal-auth-confirm-password">Confirm Password</label>
+                <input class="form-control" type="password" autocomplete="on" id="modal-auth-confirm-password">
+              </div>
+            </div>
+            <div class="mb-3">
+              <button class="btn btn-my-primary d-block w-100 mt-3" type="submit" name="submit">Register</button>
+            </div>
+          </form>
+          <div class="position-relative mt-5">
+            <hr>
+            <div class="divider-content-center">or register with</div>
+          </div>
+          <div class="row g-2 mt-2 social-buttons">
+            <div class="col-sm-6">
+              <a class="btn btn-outline-google btn-sm d-block w-100" href="#">
+                <span class="fab fa-google-plus-g me-2" data-fa-transform="grow-8"></span>
+                google </a>
+            </div>
+            <div class="col-sm-6">
+              <a class="btn btn-outline-facebook btn-sm d-block w-100" href="#">
+                <span class="fab fa-facebook-square me-2" data-fa-transform="grow-8"></span> facebook </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script>
+    var stars = document.querySelectorAll('.rate-course .fa-star');
+
+    stars.forEach(function (star, index) {
+      star.addEventListener('mouseover', function () {
+        for (var i = 0; i <= index; i++) {
+          if (!stars[i].classList.contains('selected')) {
+            stars[i].classList.add('highlight');
+          }
+        }
+      });
+
+      star.addEventListener('mouseout', function () {
+        stars.forEach(function (star) {
+          if (!star.classList.contains('selected')) {
+            star.classList.remove('highlight');
+          }
+        });
+      });
+
+      star.addEventListener('click', function () {
+        stars.forEach(function (star) {
+          star.classList.remove('selected');
+        });
+        for (var i = 0; i <= index; i++) {
+          stars[i].classList.add('selected');
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
